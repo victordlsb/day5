@@ -1,5 +1,7 @@
 public class Script {
    public static void main(String[] args) {
+
+
     Calculator calc = new Calculator();
 	System.out.print("Introduce the first number: ");
 	int num1=Integer.parseInt(System.console().readLine());
@@ -42,5 +44,8 @@ public class Script {
 		}
 	}
 	System.out.print ("The result is: " + result);
+
+
+
    }
 }
